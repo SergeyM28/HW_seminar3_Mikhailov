@@ -32,6 +32,7 @@ public class LinkedList {
     }
     public void reverseList(){
         Node currentNode = head;
+        tail = head;
         Node tempNode = new Node();
         while (currentNode != null){
             head = currentNode;
